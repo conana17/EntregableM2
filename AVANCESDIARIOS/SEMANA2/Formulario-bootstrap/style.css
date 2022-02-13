@@ -1,0 +1,51 @@
+:root{
+    --bs-indigo: #0239af;
+    --bs-blue: #0d6efd;
+    --bs-dark: #05275a;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+}
+body {
+
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--bs-white);
+    color: var(--bs-white);
+    letter-spacing: .05rem;
+
+
+}
+
+.bglight {
+    background-color: var(--bs-white) !important;
+
+}
+
+.bgdark {
+    background-color: var(--bs-dark) !important;
+
+}
+
+.p-6{
+    padding: 4rem 7rem;
+}
+
+.contact-box{
+    padding: 3rem;
+}
+
+.formcontrol {
+background-color: var(--bs-dark) !important;
+border: 2px solid var(--bs-dark);
+border-radius: .2rem;
+padding: 1.5rem 1rem ;
+}
+
+.register-bg {
+
+    background-image:url(/Users/Constanza/Desktop/john-arano-h4i9G-de7Po-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+min-height: 100vh;
+    }

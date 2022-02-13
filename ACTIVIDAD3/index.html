@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estyle.css">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1 class="text-center"> Formulario Deportivo</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded"> 
+                        <form class="row g-3" id="formulariodeportivo">
+                            <div class="col-md-6">
+                                <label for="nombrestxt" class="form-label">Nombres</label>
+                                <input type="text" class="form-control" name="nombrestxt" id="nombrestxt">
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <label for="edadtxt" class="form-label">Edad</label>
+                                <input type="number" class="form-control" name="edadtxt" id="edadtxt">
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <label for="primerapellidoTxt" class="form-label">Primer Apellido</label>
+                                <input type="text" class="form-control" name="primerapellidoTxt" id="primerapellidoTxt">
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <label for="segundoApellidotxt" class="form-label">Segundo Apellido</label>
+                                <input type="text" class="form-control" name="segundoApellidotxt" id="segundoApellidotxt" >
+                                
+                            </div>
+                            <div class="col-12">
+                                <label for="domiciliotxtx" class="form-label">Domicilio</label>
+                                <input type="text" class="form-control" name="domiciliotxtx" id="domiciliotxtx" placeholder="Calle, número, comuna">
+                                
+                            </div>
+                           
+                            <div class="col-md-6">
+                                <label for="alergiaTxt" class="form-label">¿Es alérgico?</label>
+                                <select id="alergiaTxt" name="alergiaTxt" class="form-select">
+                                    <option selected disabled value=""> Seleccione... </option>
+                                    <option>Si</option>
+                                    <option>No</option>
+                                </select>
+                                
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="form-check">
+                                    <label for="medicamentosTxt" class="form-label">Medicamentos Contraindicados</label>
+                                    <textarea class="form-control" id="medicamentosTxt" placeholder="Escribe tus medicamentos contraindicados aquí"></textarea>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="col-md-6 mt-5">
+                                <button  type="submit" id="enviar" class="btn btn-primary fw-bold">Enviar</button>
+                            </div>
+
+                            <div class="col-md-6 mt-5">
+                                <input type="reset" value="Limpiar" class="btn btn-danger fw-bold">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    <!-- <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        
+        (function () {
+          'use strict'
+        
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.querySelectorAll('.needs-validation')
+        
+          // Loop over them and prevent submission
+          Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+              form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                  event.preventDefault()
+                  event.stopPropagation()
+                }
+        
+                form.classList.add('was-validated')
+              }, false)
+            })
+        })()
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="form_jquery.js"></script>
+    <script src="traducciones.js"></script>
+</body>
+</html>

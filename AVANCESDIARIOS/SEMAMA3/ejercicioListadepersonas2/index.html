@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="proceso.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form class="formulario" id="formulario">
+       <h1>Lista de Datos</h1>
+       
+        <div class="row">
+
+            <div class="form-group col-4">
+                <label for="nombreTxt">Nombre:</label>
+                <input type="text" class="form-control" id="nombreTxt" name="nombreTxt" placeholder="Ingrese su nombre" required>
+            </div>
+        
+
+        
+            <div class=" form-group col-4 ">
+                <label for="edadTxt">Edad:</label>
+                <input type="number" class="form-control" id="edadTxt" name="edadTxt" placeholder="Ingrese su edad" required>
+            </div>
+        
+        
+            <div class="form-group col-4 ">
+                <label for="pesoTxt">Peso:</label>
+                <input type="number" class="form-control" id="pesoTxt" name="pesoTxt" placeholder="Ingrese su peso" required>
+            </div>
+
+        </div>
+        <br>
+        <div class="form-row ">
+            <div class="form-group mb-3 col-6">
+                <label for="saludTxt">Condición de salud:</label>
+                <select id="saludTxt" name="saludTxt" required > 
+                    <option value="Sano">Sano</option>
+                    <option value="enfermo">Enfermo</option>
+                </select>
+            </div>
+
+            <div class="form-group col-6">
+                <label> ¿Eres alérgico a algo?</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="SI" required>
+                    <label class="form-check-label" for="inlineRadio1">SI</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="NO" required>
+                    <label class="form-check-label" for="inlineRadio2">NO</label>
+                  </div>
+
+
+            </div>
+        
+        <button class="mt-3">Agregar Datos</button>
+
+
+        </div>
+    </form>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Peso</th>
+            <th scope="col">Salud</th>
+            <th scope="col">Alergia</th>
+          </tr>
+        </thead>
+        <tbody id="losDatos">
+
+
+        </tbody>
+    </table>
+   
+    <button class="" onclick="responderPreguntas()">Responder</button>
+</body>
+</html>
