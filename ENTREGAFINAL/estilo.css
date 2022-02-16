@@ -1,0 +1,155 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    color: #f1f1f1;
+    background-color: #1c1c1c;
+
+}
+
+a{
+    color: #f1f1f1;
+    font-weight: 500;
+
+}
+
+a:hover {
+    color: #10599e;
+
+}
+
+.nav-link{
+
+    color: #f1f1f1;
+
+
+
+}
+
+.nav-link:hover{
+    color: #10599e;
+}
+
+
+.header-background {
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto ;
+    min-height: 750px;
+    
+    padding-bottom: 70px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 34, 42, 0.9)));
+    background-image: linear-gradient(180deg, rgba(28, 34, 42, 0.55), rgba(28, 34, 42, 0.74)), url(/ENTREGAFINAL/philipp-katzenberger-_DSom3ySpow-unsplash.jpg);
+    flex-direction: column;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal ;
+    object-fit: fill;
+    -o-object-fit: fill;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-directios: column;
+    -ms-flex-direction: column;
+
+}   
+
+.sticky-nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    padding: 20px;
+    z-index: 1;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    background-color: rgba(21, 17, 70, 0.644);
+
+}
+
+.navbar .navbar-brand a{
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+    
+}
+.navbar-brand{
+    font-size: 2.2rem;
+    color: white;
+}
+.navbar-toggler {
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 22px;
+
+}
+.navbar-toggler span + span + span {
+        width: 22px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1.4rem 1rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color:#10599e;
+}
+.heading {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align:center;
+    color: white;
+    margin-top: 180px;
+    margin-bottom: 8px;
+    min-height: 100px;
+}
+.column-left {
+    min-height: 500px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 54, 107, 0.9)));
+    background-image: linear-gradient(180deg, rgba(28, 34, 42, 0.55), rgba(28, 34, 42, 0.74)), url(/ENTREGAFINAL/img2.jpg);
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+.column-right .section-title {
+    margin-top: 50px;
+    padding: 5rem 2rem 0rem 5rem;
+    font-size: 2.8rem;
+    color: #f1f1f1;
+    font-weight: 500;
+}
+.column-right .paragraph {
+    margin-top: 15px;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.1rem;
+    color: #f1f1f1;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+
