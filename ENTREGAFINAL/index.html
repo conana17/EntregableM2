@@ -100,7 +100,7 @@
                         <div class="card shadow rounded bg-dark" style="width: 18rem;">
                             <img src="img4.jpg" class="card-img-top" alt="card">
                             <div class="card-body">
-                              <h5 class="card-title">Lavado con Motor</h5>
+                              <h5 class="card-title">Lavado de Motor</h5>
                               <p2 class="card-text">Te proporcionamos un excelente servicio de lavado al motor </p>
                               <h1 class="precioServicio">$5000</h1>
                             </div>
@@ -120,7 +120,12 @@
     <div class="container-fluid" id="contratanos">
         <div class="row">
 
-            <div class="col-xs-12 col-sm-6 contratanos-left">
+
+          <div class="col-xs-12 col-sm-6 contratanos-left">
+                
+          </div>
+
+            <div class="col-xs-12 col-sm-6 contratanos-right">
                 <div class="text-left-block">
                     <div class="left-center-text">
                         <div class="left-center-part">
@@ -130,12 +135,169 @@
                             </p>
                             
                             <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-lg-12">
+                                <div class="col-xs-12 col-sm-12 col-lg-12 shadow">
                                     <form id="cotizacion" name="cotizacion" method="post" data-name="Cotizacion">
                                         <div class="row">
+
+                                          <div  class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                            <h4 class="text-left"> Datos del Cliente</h4>
+                                          </div>
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                            <div class="form-group">
+                                              <label for="nombre" class="form-label">Nombre</label>
+                                              <input type="text" id="nombre" class="form-control" placeholder="Ej: Rosario" name="nombre" data-name="name" required;>
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                            <div class="form-group">
+                                              <label for="apellido" class="form-label"> Apellido </label>
+                                              <input type="text" id="apellido" class="form-control" placeholder="Ej: Martinez" name="apellido" data-name="apellido" required;>
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                            <div class="form-group">
+                                              <label for="rut" class="form-label"> Rut </label>
+                                              <input type="text" id="rut" class="form-control" placeholder="Ej: 13.729.159-9" name="rut" data-name="rut" required;>
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group mt-4">
+                                              <label for="direccion" class="form-label"> Dirección </label>
+                                              <input type="text" id="direccion" class="form-control" placeholder="Calle, número, sector" name="direccion" data-name="direccion" required;>
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group mt-4">
+                                              <label for="comuna" class="form-label"> Comuna </label>
+                                              <select id="comuna" name="comuna" class="form-select">
+                                                <option selected disabled value=""> Seleccione... </option>
+                                                <option>Temuco</option>
+                                                <option>Pucón</option>
+                                                <option>P.Las Casas</option>
+                                                <option>Vilcún</option>
+                                                <option>Loncoche</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <div class="row">
+                                          <div  class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                            <h4 class="text-left"> Datos del Vehículo </h4>
+                                          </div>
+                                          <br>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group mt-4">
+                                              <label for="tipoDevehiculo" class="form-label"> Tipo de Vehículo</label>
+                                              <select id="tipoDevehiculo" name="tipoDevehiculo" class="form-select">
+                                                <option selected disabled value=""> Seleccione... </option>
+                                                <option>Furgón</option>
+                                                <option>Automóvil</option>
+                                                <option>Camión</option>
+                                                <option>Camioneta</option>
+                                                <option>Moto</option>
+                                              </select>
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group mt-4">
+                                              <label for="marca" class="form-label"> Marca de Vehículo </label>
+                                              <input type="text" id="marca" class="form-control" placeholder="Ej: Suzuki, Mitsubichi, Peugeot" name="marca" data-name="marca" required;>
+                                            </div>
+                                          </div>
+                                          
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-5 ">
+                                            <div class="form-group mt-3">
+                                              <label for="modelo" class="form-label"> Modelo </label>
+                                              <input type="text" id="modelo" class="form-control" placeholder="Swift, i10, etc." name="modelo" data-name="modelo" required;>
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-2">
+                                            <div class="form-group mt-3">
+                                              <label for="anio" class="form-label"> Año </label>
+                                              <input type="number" id="anio" class="form-control" placeholder="Ej: 2009" name="anio" data-name="anio" required;>
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-5 ">
+                                            <div class="form-group mt-3">
+                                              <label for="revision" class="form-label"> Revisión técnica al día </label>
+                                              <select id="revision" name="revision" class="form-select">
+                                                <option selected disabled value=""> Seleccione... </option>
+                                                <option>SI</option>
+                                                <option>NO</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                                                        
+                                        </div>
+                                        <br>
+                                        <br>
+
+                                        <div class="row">
+                                          <div  class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                            <h4 class="text-left"> Datos del Servicio </h4>
+                                          </div>
+                                          <br>
+                                          <br>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div>
+                                            <label> Tipo de Servicio </label>
+                                          </div>
+                                                                    
                                             
+                                            <div class="form-check form-check-inline">
+                                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                              <label class="form-check-label" for="inlineCheckbox1">Lavado Exterior</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                              <label class="form-check-label" for="inlineCheckbox2">Lavado de Motor</label>
+                                            </div>
+
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group">
+                                              <label for="encargado" class="form-label"> Encargado </label>
+                                              <select id="encargado" name="encargado" class="form-select">
+                                                <option selected disabled value=""> Seleccione... </option>
+                                                <option>Daysi Montoya</option>
+                                                <option>Manuel Gutierrez</option>
+                                                <option> Julio Rafelo</option>
+                                                <option> Carmela Lopez</option>
+                                              </select>
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group">
+                                              <label for="fechaDeingreso" class="form-label"> Fecha de Servicio</label>
+                                              <input type="date" id="fechaDeingreso" class="form-control"  name="fechaDeingreso" data-name="fechaDeingreso" required;>
+                                            </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group">
+                                              <label for="fechaDetermino" class="form-label"> Hora de término de servicio</label>
+                                              <input type="time" id="fechaDetermino" class="form-control"  name="fechaDetermino" data-name="fechaDetermino" required;>
+                                            </div>
+                                          </div>
                                         </div>
 
+                                        <div class="row">
+
+                                          <button class="btn btn-primary form-control mt-5" type="submit" id="ingreso" name="ingreso">Agregar</button>
+                                        </div>
                                     </form>
                                 </div>
                             </div>
@@ -144,9 +306,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 contratanos-right">
-                
-            </div>
+          
         </div>
     </div>
 </body>
