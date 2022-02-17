@@ -239,3 +239,13 @@ height: 100px;
     text-align: center;
     line-height: 50px;
 }
+label.error{
+    color:red;
+
+
+}
+
+input.error,select,textarea{
+
+    border: 1px solid red;
+}

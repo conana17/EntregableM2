@@ -8,11 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/04afe1c7c0.js" crossorigin="anonymous"></script>
+   
     
      <link rel="shortcut icon" href="icons8-coche-de-f1-48.png">
+     
      
 </head>
 
@@ -136,7 +135,7 @@
                             
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-lg-12 shadow">
-                                    <form id="cotizacion" name="cotizacion" method="post" data-name="Cotizacion">
+                                    <form id="cotizacion" name="cotizacion">
                                         <div class="row">
 
                                           <div  class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -144,36 +143,36 @@
                                           </div>
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                                             <div class="form-group">
-                                              <label for="nombre" class="form-label">Nombre</label>
-                                              <input type="text" id="nombre" class="form-control" placeholder="Ej: Rosario" name="nombre" data-name="name" required;>
+                                              <label for="nombreTxt" class="form-label">Nombre</label>
+                                              <input type="text" id="nombreTxt" class="form-control" placeholder="Ej: Rosario" name="nombreTxt">
                                             </div>
                                           </div>
 
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                                             <div class="form-group">
-                                              <label for="apellido" class="form-label"> Apellido </label>
-                                              <input type="text" id="apellido" class="form-control" placeholder="Ej: Martinez" name="apellido" data-name="apellido" required;>
+                                              <label for="apellidoTxt" class="form-label"> Apellido </label>
+                                              <input type="text" id="apellidoTxt" class="form-control" placeholder="Ej: Martinez" name="apellidoTxt">
                                             </div>
                                           </div>
 
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                                             <div class="form-group">
-                                              <label for="rut" class="form-label"> Rut </label>
-                                              <input type="text" id="rut" class="form-control" placeholder="Ej: 13.729.159-9" name="rut" data-name="rut" required;>
+                                              <label for="rutNumb" class="form-label"> Rut </label>
+                                              <input type="text" id="rutNumb" class="form-control" placeholder="Ej: 13.729.159-9" name="rutNumb">
                                             </div>
                                           </div>
 
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <div class="form-group mt-4">
-                                              <label for="direccion" class="form-label"> Dirección </label>
-                                              <input type="text" id="direccion" class="form-control" placeholder="Calle, número, sector" name="direccion" data-name="direccion" required;>
+                                              <label for="direccionTxt" class="form-label"> Dirección </label>
+                                              <input type="text" id="direccionTxt" class="form-control" placeholder="Calle, número, sector" name="direccionTxt">
                                             </div>
                                           </div>
 
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <div class="form-group mt-4">
-                                              <label for="comuna" class="form-label"> Comuna </label>
-                                              <select id="comuna" name="comuna" class="form-select">
+                                              <label for="comunaTxt" class="form-label"> Comuna </label>
+                                              <select id="comunaTxt" name="comunaTxt" class="form-select">
                                                 <option selected disabled value=""> Seleccione... </option>
                                                 <option>Temuco</option>
                                                 <option>Pucón</option>
@@ -208,29 +207,29 @@
 
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <div class="form-group mt-4">
-                                              <label for="marca" class="form-label"> Marca de Vehículo </label>
-                                              <input type="text" id="marca" class="form-control" placeholder="Ej: Suzuki, Mitsubichi, Peugeot" name="marca" data-name="marca" required;>
+                                              <label for="marcaTxt" class="form-label"> Marca de Vehículo </label>
+                                              <input type="text" id="marcaTxt" class="form-control" placeholder="Ej: Suzuki, Mitsubichi, Peugeot" name="marcaTxt">
                                             </div>
                                           </div>
                                           
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-5 ">
                                             <div class="form-group mt-3">
-                                              <label for="modelo" class="form-label"> Modelo </label>
-                                              <input type="text" id="modelo" class="form-control" placeholder="Swift, i10, etc." name="modelo" data-name="modelo" required;>
+                                              <label for="modeloTxt" class="form-label"> Modelo </label>
+                                              <input type="text" id="modeloTxt" class="form-control" placeholder="Swift, i10, etc." name="modeloTxt">
                                             </div>
                                           </div>
 
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-2">
                                             <div class="form-group mt-3">
-                                              <label for="anio" class="form-label"> Año </label>
-                                              <input type="number" id="anio" class="form-control" placeholder="Ej: 2009" name="anio" data-name="anio" required;>
+                                              <label for="anioNumb" class="form-label"> Año </label>
+                                              <input type="number" id="anioNumb" class="form-control" placeholder="Ej: 2009" name="anioNumb">
                                             </div>
                                           </div>
 
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-5 ">
                                             <div class="form-group mt-3">
-                                              <label for="revision" class="form-label"> Revisión técnica al día </label>
-                                              <select id="revision" name="revision" class="form-select">
+                                              <label for="revisionTxt" class="form-label"> Revisión técnica al día </label>
+                                              <select id="revisionTxt" name="revisionTxt" class="form-select">
                                                 <option selected disabled value=""> Seleccione... </option>
                                                 <option>SI</option>
                                                 <option>NO</option>
@@ -268,8 +267,8 @@
 
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <div class="form-group">
-                                              <label for="encargado" class="form-label"> Encargado </label>
-                                              <select id="encargado" name="encargado" class="form-select">
+                                              <label for="encargadoTxt" class="form-label"> Encargado </label>
+                                              <select id="encargadoTxt" name="encargadoTxt" class="form-select">
                                                 <option selected disabled value=""> Seleccione... </option>
                                                 <option>Daysi Montoya</option>
                                                 <option>Manuel Gutierrez</option>
@@ -282,21 +281,20 @@
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <div class="form-group">
                                               <label for="fechaDeingreso" class="form-label"> Fecha de Servicio</label>
-                                              <input type="date" id="fechaDeingreso" class="form-control"  name="fechaDeingreso" data-name="fechaDeingreso" required;>
+                                              <input type="date" id="fechaDeingreso" class="form-control"  name="fechaDeingreso">
                                             </div>
                                           </div>
 
                                           <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <div class="form-group">
                                               <label for="fechaDetermino" class="form-label"> Hora de término de servicio</label>
-                                              <input type="time" id="fechaDetermino" class="form-control"  name="fechaDetermino" data-name="fechaDetermino" required;>
+                                              <input type="time" id="fechaDetermino" class="form-control"  name="fechaDetermino">
                                             </div>
                                           </div>
                                         </div>
 
                                         <div class="row">
-
-                                          <button class="btn form-control mt-5" type="submit" id="ingreso" name="ingreso">Agregar</button>
+                                          <button type="submit" id="ingreso"  class="btn mt-5"   name="ingreso">Agregar</button>
                                         </div>
                                     </form>
                                 </div>
@@ -317,6 +315,14 @@
       <i class="fa fa-arrow-up">
       </i>
     </a>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="validacion.js"></script>
+    <script src="traducciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/04afe1c7c0.js" crossorigin="anonymous"></script>
+    
 </body>
     
 </html>
