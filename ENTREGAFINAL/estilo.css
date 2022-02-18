@@ -130,7 +130,7 @@ a:hover {
 .column-left {
     min-height: 500px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 54, 107, 0.9)));
-    background-image: linear-gradient(180deg, rgba(28, 34, 42, 0.55), rgba(28, 34, 42, 0.74)), url(/ENTREGAFINAL/img2.jpg);
+    background-image: linear-gradient(180deg, rgba(28, 34, 42, 0.55), rgba(28, 34, 42, 0.74)), url(https://images.unsplash.com/photo-1543857182-68106299b6b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
     background-position: 0px 0px, 100% 50%;
     background-size: auto, cover;
     background-attachment: scroll, scroll;
@@ -155,7 +155,7 @@ a:hover {
 .servicios-right{
     min-height: 500px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 54, 107, 0.9)));
-    background-image: linear-gradient(180deg, rgba(28, 34, 42, 0.55), rgba(28, 34, 42, 0.74)), url(/ENTREGAFINAL/img5.jpg);
+    background-image: linear-gradient(180deg, rgba(28, 34, 42, 0.55), rgba(28, 34, 42, 0.74)), url(https://images.unsplash.com/photo-1641494639075-5571f7ef486b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-position: 0px 0px, 100% 50%;
     background-size: auto, cover;
     background-attachment: scroll, scroll;
@@ -182,7 +182,7 @@ a:hover {
 .contratanos-left{
     min-height: 500px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 54, 107, 0.9)));
-    background-image: linear-gradient(180deg, rgba(28, 34, 42, 0.55), rgba(28, 34, 42, 0.74)), url(/ENTREGAFINAL/img6.jpg);
+    background-image: linear-gradient(180deg, rgba(28, 34, 42, 0.55), rgba(28, 34, 42, 0.74)), url(https://images.unsplash.com/photo-1560037962-467f95c052c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-position: 0px 0px, 100% 50%;
     background-size: auto, cover;
     background-attachment: scroll, scroll;
